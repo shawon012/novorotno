@@ -1,0 +1,53 @@
+.each-job{
+   margin: 30px;
+   border: 1px solid lightgray;
+   border-radius: 20px;
+   padding: 30px;
+}
+
+.job-title h4{
+    margin-bottom: 0px;
+}
+
+.remote-full{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+.remote-full div{
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: blue;
+}
+
+.img-location{
+    display: flex;
+    align-items: center;
+}
+.img-location p{
+    margin: 5px;
+}
+.img-location img{
+    height: 15px;
+    width: 15px;
+}
+
+.img-salary{
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+}
+.img-salary p{
+    margin: 0px;
+}
+
+.img-salary img{
+    height: 15px;
+    width: 15px;
+}
+.btn-view{
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+}

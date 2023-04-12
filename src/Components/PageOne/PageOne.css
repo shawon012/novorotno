@@ -1,0 +1,21 @@
+/* PageOne.css */
+
+/* .page-one-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }  */
+
+  
+  /* @media only screen and (min-width: 768px) {
+    .page-one-container {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 40px;
+    }
+  } */
+  
+  .page-one-container{
+    width: 100%;
+  }

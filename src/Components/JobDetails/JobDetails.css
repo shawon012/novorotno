@@ -1,0 +1,67 @@
+.title-job-details{
+    display: flex;
+    justify-content: center;
+}
+
+.job-des-contaoner{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.first-div-job{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    column-gap: auto ;
+}
+
+.second-div-job{
+    padding: 30px;
+    background-color: rgb(240, 233, 233);
+    border-radius: 10px;
+}
+
+.job-details-s{
+    font-size: 20px;
+    font-weight: 1000px;
+}
+.job-details-se{
+    font-size: 30px;
+    font-weight: 1000px;
+    margin-bottom: 15px;
+}
+
+.job-details-p{
+    font-size: 15px;
+    font-weight: 8000px;
+}
+.job-details-pe{
+    font-size: 20px;
+    font-weight: 8000px;
+    margin-bottom: 15px;
+}
+
+.job-details-e{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.btn-apple-now{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 15px;
+    margin-bottom: 70px;
+    width: 100%;
+}
+
+.hr-hr{
+    width: 100%;
+}
+
+.gap-gap{
+    padding-bottom: 20px;
+}

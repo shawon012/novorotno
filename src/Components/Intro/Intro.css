@@ -1,0 +1,118 @@
+/* .btn-started{
+    background-color: blue;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+.pgone-container{
+   margin: 10px 50px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.img-container img{
+    height: 550px;
+    width: 600px;
+} 
+
+.title{
+    font-size: 80px;
+    font-weight: 800;
+    margin:5px;
+    line-height: 100px;
+}
+
+.p-container p{
+    margin: 0px;
+}
+
+.para-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+} */
+
+
+  /* mobile devices */
+  @media only screen and (min-width: 321px) and (max-width: 414px) {
+    .btn-started{
+        background-color: blue;
+        padding: 8px 15px;
+        border-radius: 5px;
+        color: white;
+    }
+    
+    .pgone-container{
+       margin: 10px 5px;
+       display: flex;
+       flex-direction: column-reverse;
+       justify-content: space-between;
+       align-items: center;
+    }
+    
+    .img-container img{
+        height: 400px;
+        width: 100%;
+    } 
+    
+    .title{
+        font-size: 40px;
+        font-weight: 800;
+        margin:5px;
+        /* line-height: 100px; */
+    }
+    .title p{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .p-container p{
+        margin: 0px;
+    }
+    
+    .para-container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+  }
+  
+ 
+  
+  /* Desktops */
+  @media only screen and (min-width: 1025px) {
+    .btn-started{
+        background-color: blue;
+        padding: 8px 15px;
+        border-radius: 5px;
+        color: white;
+    }
+    
+    .pgone-container{
+       margin: 10px 50px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+    }
+    
+    .img-container img{
+        height: 550px;
+        width: 600px;
+    } 
+    
+    .title{
+        font-size: 80px;
+        font-weight: 800;
+        margin:5px;
+        line-height: 100px;
+    }
+    
+    .p-container p{
+        margin: 0px;
+    }
+    
+    .para-container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

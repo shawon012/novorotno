@@ -1,0 +1,58 @@
+/* .job-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin:50px 50px 20px 0px;
+    /* border: 1px solid lightgray; */
+/* }
+
+.btn-showall{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.btn-showall button{
+    background-color: blue;
+    color: white;
+    padding: 10px 30px;
+/* } */ 
+
+@media only screen and (min-width: 321px) and (max-width: 414px) {
+    .job-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin:50px 5px 20px 0px;
+        /* border: 1px solid lightgray; */
+    }
+    
+    .btn-showall{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .btn-showall button{
+        background-color: blue;
+        color: white;
+        padding: 10px 30px;
+    }
+  
+}
+
+@media only screen and (min-width: 1025px) {
+    .job-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin:50px 50px 20px 0px;
+        /* border: 1px solid lightgray; */
+    }
+    
+    .btn-showall{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .btn-showall button{
+        background-color: blue;
+        color: white;
+        padding: 10px 30px;
+    }
+}

@@ -1,0 +1,21 @@
+.div-hook{
+    margin: 50px;
+}
+.div-context{
+    border: 2px solid lightcoral;
+    border-radius: 10px;
+    background-color: lightcyan;
+    margin-bottom: 30px;
+    /* color: white; */
+    padding: 20px 30px;
+}
+
+
+
+/* echo "# novorotno" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/shawon012/novorotno.git
+git push -u origin main */

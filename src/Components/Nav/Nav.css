@@ -1,0 +1,57 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 50px;
+}
+
+
+.btn-apply{
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    /* margin-right: 50px; */
+}
+
+.link-nav{
+    display: flex;
+    gap: 30px;
+}
+
+
+.link{
+    color: black;
+}
+
+
+
+@media only screen and (min-width: 321px) and (max-width: 414px) {
+
+ .nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 5px;
+}
+
+
+.btn-apply{
+    background-color: blue;
+    padding: 5px 5px;
+    border-radius: 5px;
+    color: white;
+    /* margin-right: 50px; */
+    margin-left: 10px;
+}
+
+.link-nav{
+    display: flex;
+    gap: 5px;
+}
+
+
+.link{
+    color: black;
+}
+  }
